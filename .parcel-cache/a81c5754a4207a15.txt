@@ -141,7 +141,7 @@
 72C:\Users\Matrix\Desktop\3d-stuff-master\node_modules\three\src\renderers132896012874972258 1
 98C:\Users\Matrix\Desktop\3d-stuff-master\node_modules\three\examples\js\interactive\SelectionBox.js121436361000000000 0
 89C:\Users\Matrix\Desktop\3d-stuff-master\node_modules\svgo\node_modules\commander\index.js121436361000000000 0
-52C:\Users\Matrix\Desktop\3d-stuff-master\package.json132896032323904582 0
+52C:\Users\Matrix\Desktop\3d-stuff-master\package.json132896039308885189 0
 74C:\Users\Matrix\Desktop\3d-stuff-master\node_modules\resolve\lib\core.json121436361000000000 0
 72C:\Users\Matrix\Desktop\3d-stuff-master\node_modules\is-json\.travis.yml131014996140000000 0
 76C:\Users\Matrix\Desktop\3d-stuff-master\node_modules\@parcel\package-manager132896014937125748 1
