@@ -2,11 +2,12 @@
 	"name": "kakam",
 	"version": "1.0.0",
 	"description": "",
-	"main": "./js/main.js",
+	"main": "./js/main.js, ./js/scroll.js",
 	"minifySvg": false,
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"dev": "parcel index.html"
+		"dev": "parcel index.html",
+		"build": "parcel build --no-minify index.html"
 	},
 	"keywords": [],
 	"author": "",
