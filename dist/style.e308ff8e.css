@@ -7,6 +7,7 @@
 canvas {
 	display: block;
 }
+
 #container {
 	position: fixed;
 	top: 0;
@@ -23,8 +24,12 @@ header {
 	margin-bottom: 5em;
 	position: relative;
 }
+.grid {
+	padding-top: 300px;
+}
 h1 {
-	font-size: 260px;
+	font-size: 100px !important;
+	white-space: nowrap;
 	line-height: 1;
 	padding: 0.5em 0;
 	text-align: center;
@@ -32,14 +37,18 @@ h1 {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	color: #047482;
+	color: black;
 	mix-blend-mode: color-burn;
+	font-family: "Nunito", sans-serif;
 	font-size: 18vw;
 }
 header img {
 	display: block;
 	max-width: 100%;
 	opacity: 0;
+}
+a {
+	color: black;
 }
 .grid {
 	display: grid;
