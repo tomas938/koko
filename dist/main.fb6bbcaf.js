@@ -38938,7 +38938,7 @@ var sketch = /*#__PURE__*/function () {
         img.addEventListener("mouseout", function () {
           gsap.to(material.uniforms.hoverState, {
             duration: 1,
-            value: 0
+            value: 1
           });
         });
         material.uniforms.uImage.value = texture;
@@ -39072,7 +39072,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57592" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52926" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

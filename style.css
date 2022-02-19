@@ -7,7 +7,9 @@
 canvas {
 	display: block;
 }
-
+body {
+	background-image: linear-gradient(rgb(255, 255, 255), rgba(0, 0, 0, 0.452));
+}
 #container {
 	position: fixed;
 	top: 0;
@@ -28,7 +30,6 @@ header {
 	padding-top: 300px;
 }
 h1 {
-	font-size: 100px !important;
 	white-space: nowrap;
 	line-height: 1;
 	padding: 0.5em 0;
@@ -37,10 +38,10 @@ h1 {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	color: black;
+	color: rgb(116, 112, 112);
 	mix-blend-mode: color-burn;
 	font-family: "Nunito", sans-serif;
-	font-size: 18vw;
+	font-size: 8vw;
 }
 header img {
 	display: block;
@@ -50,10 +51,22 @@ header img {
 a {
 	color: black;
 }
+.logo {
+	position: fixed;
+	left: 50%;
+	z-index: 1000 !important;
+	transform: translateX(-50%);
+}
 .grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 5em 2em;
+	padding-bottom: 10rem;
+}
+@media only screen and (max-width: 500px) {
+	.grid {
+		grid-template-columns: 1fr;
+	}
 }
 .item {
 	align-self: center;

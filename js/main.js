@@ -127,7 +127,7 @@ export default class sketch {
 			img.addEventListener("mouseout", () => {
 				gsap.to(material.uniforms.hoverState, {
 					duration: 1,
-					value: 0,
+					value: 1,
 				});
 			});
 
